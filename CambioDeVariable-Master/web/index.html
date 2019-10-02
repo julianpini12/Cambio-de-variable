@@ -1,0 +1,24 @@
+<script src="funciones.js"></script>
+<html>
+	<head>
+		
+	</head>
+	<body>
+
+		<b>Ecuaciones en Recurrencia cambio de variables</b>
+		<br>
+		<br>
+		<br>
+		<br>
+		Seleccione el tipo de ecuacion:
+		
+		<br>
+		<br>
+                <input type="radio" name="ecuacion" value="ecu1"> Fn = A+B*F<sub>n/2</sub><br>
+                <input type="radio" name="ecuacion" value="ecu2"> Fn = n<sup>A</sup>+B*F<sub>n/2</sub><br>
+                 A = <input type="text" id="A" size="3"/><br>
+                 B = <input type="text" id="B" size="3"/><br>
+                <input type="button" name="Remplazar" id="cargar" value="Remplazar" onclick=" ecuacionRemplazar();"/>
+               <div  id="numerosAsignados"></div>
+	</body>
+</html>
